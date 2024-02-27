@@ -1,47 +1,47 @@
 # Amazon-Scraper
 
-Este é um projeto de web scraping que permite pesquisar produtos na Amazon e exibir os resultados em uma página da web. O projeto consiste em uma aplicação web que utiliza Node.js no backend para realizar a raspagem de dados e servir uma API, e HTML, CSS e JavaScript no frontend para criar a interface de usuário e interagir com a API.
+This is a web scraping project that allows you to search for products on Amazon and display the results on a web page. The project consists of a web application that uses Node.js on the backend to perform data scraping and serve an API, and HTML, CSS, and JavaScript on the frontend to create the user interface and interact with the API.
 
-### Recursos:
+### Features:
 
->Pesquisa de produtos na Amazon: Os usuários podem inserir uma palavra-chave na caixa de pesquisa e clicar no botão "Scrape" ou pressionar Enter para iniciar a pesquisa.
+>Amazon product search: Users can enter a keyword in the search box and click the "Scrape" button or press Enter to initiate the search.
 
->Exibição dos resultados: Os resultados da pesquisa são exibidos na página como cards de produtos, mostrando o título, classificação, avaliações e imagem do produto.
+>Results display: The search results are displayed on the page as product cards, showing the title, rating, reviews, and product image.
 
->Mensagem de "Nenhum resultado encontrado": Se nenhum resultado for encontrado para a palavra-chave inserida, uma mensagem indicando isso será exibida na página.
+>"No results found" message: If no results are found for the entered keyword, a message indicating this will be displayed on the page.
 
-### Tecnologias utilizadas:
+### Technologies used:
 
-1. Node.js: Utilizado no backend para criar o servidor e realizar a raspagem de dados.
-2. Express.js: Framework web utilizado para criar rotas e servir a API.
-3. Axios: Biblioteca utilizada para fazer requisições HTTP para a Amazon.
-4. Cheerio: Biblioteca utilizada para analisar e manipular o HTML da página da Amazon.
-5. HTML, CSS e JavaScript: Utilizados no frontend para criar a interface de usuário e interatividade.
+1. Node.js: Used on the backend to create the server and perform data scraping.
+2. Express.js: Web framework used to create routes and serve the API.
+3. Axios: Library used to make HTTP requests to Amazon.
+4. Cheerio: Library used to parse and manipulate the HTML of the Amazon page.
+5. HTML, CSS and JavaScript: Used on the frontend to create the user interface and interactivity.
 
-### Como executar o projeto:
+### How to run the project:
 
-Certifique-se de ter o Node.js instalado em sua máquina.
+Make sure you have Node.js installed on your machine.
 
-Clone este repositório.
+Clone this repository:
 ```bash
 git clone git@github.com:GabrielaMoura25/Amazon-Scraper.git
 ```
 
-Abra um terminal na pasta do projeto e instale as dependências, executando o comando:
+Open a terminal in the project folder and install the dependencies by running the command:
 ```bash
 npm install
 ```
 
-Para iniciar o servidor execute:
+To start the server, run:
 ```bash
 npm start
 ```
 
-Abra um navegador da web e vá para http://localhost:3000.
+Open a web browser and go to http://localhost:3000.
 
-Insira uma palavra-chave na caixa de pesquisa e pressione Enter ou clique no botão "Scrape" para iniciar a pesquisa.
+Enter a keyword in the search box and press Enter or click the "Scrape" button to initiate the search.
 
-Observação:
-Este projeto é apenas para fins educacionais e não deve ser usado para violar os termos de serviço de qualquer site. Certifique-se de usar o web scraping de forma ética e respeitosa.
+Note:
+This project is for educational purposes only and should not be used to violate the terms of service of any website. Make sure to use web scraping ethically and respectfully.
 
-Desenvolvido por Gabriela Moura, © 2024.
+Developed by Gabriela Moura, © 2024.
