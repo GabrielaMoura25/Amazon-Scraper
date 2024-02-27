@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const resultsDiv = document.getElementById('results');
   const noResultsDiv = document.getElementById('noResults');
   const loadingDiv = document.getElementById('loading');
-  const searchKeywordSpan = document.getElementById('searchKeyword');
 
   async function performSearch() {
     const keyword = keywordInput.value.trim();
